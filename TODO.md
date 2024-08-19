@@ -3,5 +3,5 @@
 * ~~setup server O2switch~~
     * create makefile
 * ~~Make entities~~
-* Fixtures
+* ~~Fixtures~~
 * Api plateform

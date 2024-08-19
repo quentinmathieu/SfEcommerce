@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Product list{% endblock %}
+
+{% block body %}
+    <table>
+        <thead>
+            <th>Product</th>
+            <th>Category</th>
+            <th>Prix</th>
+            <th>Promotion</th>
+            <th>Remise</th>
+        </thead>
+        <tbody></tbody>
+        {% for product in products %}
+        <tr>
+            <td>{{ product.name }}</td>
+            <td>{{ product.category }}</td>
+            <td>{{ product.price }}</td>
+            <td>{{ product.discount }}</td>
+            <td>{{ product.salesPromotion }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
