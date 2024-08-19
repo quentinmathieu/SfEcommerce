@@ -2,6 +2,10 @@
 
 * ~~setup server O2switch~~
     * create makefile
-* ~~Make entities~~
+* ~~Make entities (product + category) ~~
 * ~~Fixtures~~
-* Api plateform
+* ~~Api plateform~~
+
+* CRUD with react
+* CRUD with angular
+* CRUD with vue
